@@ -9,3 +9,6 @@ Just git clone this into your $ZSH_CUSTOM/plugins directory and add it to your p
   git clone https://github.com/packysauce/zsh-fastrepo.git "$ZSH_CUSTOM/plugins"
 
 should do the trick
+
+# please help
+I suck at zsh, so I'm all ears if you have PRs or suggestions
