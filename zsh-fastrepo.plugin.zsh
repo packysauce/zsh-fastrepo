@@ -10,7 +10,7 @@ is_repo() {
         return 1
     fi
 
-    [[ -d "$path/$repo" ]] && echo "$path/$repo"
+    [[ -d "$path/$repo" ]] && echo "$path/$repo" && return 0
     if [[ -L "$path" ]]; then
         [[ -d "$(/bin/readlink $path)/$repo" ]]
         is_repo "$1" "$(/bin/readlink $path)"
